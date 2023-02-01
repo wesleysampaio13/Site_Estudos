@@ -1,6 +1,7 @@
 body{
     background-image: url("./image/imagem_fundo_pizza_menu.png");
     font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
 
 h1, h2, p{
@@ -8,6 +9,8 @@ h1, h2, p{
 }
 
 h1{
+    margin-top: 0px;
+    margin-bottom: 14px;
     font-size: 45px;
 }
 
@@ -37,4 +40,39 @@ h2{
 .item p{
     display: inline-block;
     width: 50%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 19px;
+}
+
+hr{
+    height: 3px;
+    background-color: #F25A42;
+    border-color: #F25A42;
+}
+
+.bottom-line{
+    margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #F25A42; 
+}
+
+a:active{
+    color: white;   
 }
