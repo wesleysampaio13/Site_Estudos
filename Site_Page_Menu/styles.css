@@ -6,6 +6,9 @@ h1, h2, p{
     text-align: center;
 }
 
-div{
-    background-color: #faebd7;
+.menu{
+    background-color: #FCD7AD;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
