@@ -5,3 +5,7 @@ body{
 h1, h2, p{
     text-align: center;
 }
+
+div{
+    background-color: #faebd7;
+}
