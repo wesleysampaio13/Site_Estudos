@@ -1,2 +1,2 @@
-# Site_Estudos
+# Sites para Estudos
  Primeiro repositório versionado
