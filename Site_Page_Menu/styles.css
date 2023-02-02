@@ -61,6 +61,10 @@ footer{
     font-size: 14px;
 }
 
+.by{
+    margin-bottom: 3px;
+}
+
 a{
     color: black;
 }
