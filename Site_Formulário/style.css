@@ -5,3 +5,8 @@ body{
     background-color: #70587C;
     color: #FFFFFF;
 }
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
