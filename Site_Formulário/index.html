@@ -17,11 +17,13 @@
                 <label for="new-password">Criar nova senha: <input type="password" id="new-password" pattern="[a-z0-5]{8,}" required></label>
             </fieldset>
             <fieldset>
-                <label for=""><input type="radio" name="account-type"> Iniciante</label>
-                <label for=""><input type="radio" name="account-type"> Já tenho um conhecimento musical</label>
-                <label for=""><input type="checkbox" required> Eu aceito os termos e condições</label>
+                <label for="iniciante"><input id="iniciante" type="radio" name="account-type"> Iniciante</label>
+                <label for="conhecimento-musical"><input id="conhecimento-musical" type="radio" name="account-type"> Já tenho um conhecimento musical</label>
+                <label for="termos-e-condicoes"><input id="termos-e-condicoes" type="checkbox" required> Eu aceito os termos e condições</label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label for="file">Adicione sua foto:</label>
+            </fieldset>
             <input type="submit" value="Enviar">
         </form>
         </main>
