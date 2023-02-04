@@ -17,31 +17,32 @@
                 <label for="new-password">Criar nova senha: <input type="password" id="new-password" pattern="[a-z0-5]{8,}" required></label>
             </fieldset>
             <fieldset>
-                <label for="iniciante"><input id="iniciante" type="radio" name="account-type"> Iniciante</label>
-                <label for="conhecimento-musical"><input id="conhecimento-musical" type="radio" name="account-type"> Já tenho um conhecimento musical</label>
-                <label for="termos-e-condicoes"><input id="termos-e-condicoes" type="checkbox" required> Eu aceito os termos e condições</label>
+                <label for="beginner"><input id="beginner" type="radio" name="account-type"> Iniciante</label>
+                <label for="musical-knowledge">
+                <input id="musical-knowledge" type="radio" name="account-type"> Já tenho um conhecimento musical</label>
+                <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required> Eu aceito os termos e condições</label>
             </fieldset>
             <fieldset>
-                <label for="avatar"> Adicione sua foto: <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /></label>
-                <label for="">Digite sua idade: <input type="number" min="13" max="120"></label>
-                <label for=""> Escolha seu curso:
-                    <select name="" id="">  
-                        <option value="escolha-uma-opcao">(escolha uma opção:)</option>
-                        <option value="violino">Violino</option>
-                        <option value="teclado">Teclado</option>
-                        <option value="canto">Canto</option>
-                        <option value="violao">Violão</option>
-                        <option value="flauta-transversal">Flauta Transversal</option>
+                <label for="avatar"> Adicione sua foto: <input id="avatar" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /></label>
+                <label for="age">Digite sua idade: <input id="age" type="number" min="13" max="120"></label>
+                <label for="curse"> Escolha seu curso:
+                    <select id="curse">  
+                        <option value="choise-one-option">(escolha uma opção:)</option>
+                        <option value="violin">Violino</option>
+                        <option value="piano">Teclado</option>
+                        <option value="voice">Canto</option>
+                        <option value="guitar">Violão</option>
+                        <option value="flute">Flauta Transversal</option>
                     </select>    
                 </label>
-                <label for=""> Escolha o dia e hora:
-                    <select name="" id="">
-                        <option value="segunda">Segunda-feira</option>
-                        <option value="terca">Terça-feira</option>
-                        <option value="quarta">Quarta-feira</option>
-                        <option value="quinta">Quinta-feira</option>
-                        <option value="sexta">Sexta-feira</option>
-                        <option value="sabado">Sábado</option>
+                <label for="time-program"> Escolha o dia e hora:
+                    <select id="time-program">
+                        <option value="monday">Segunda-feira</option>
+                        <option value="tuesday">Terça-feira</option>
+                        <option value="wednesday">Quarta-feira</option>
+                        <option value="thursday">Quinta-feira</option>
+                        <option value="friday">Sexta-feira</option>
+                        <option value="saturday">Sábado</option>
                     </select>
                     <select name="" id="">
                         <option value=""></option>
