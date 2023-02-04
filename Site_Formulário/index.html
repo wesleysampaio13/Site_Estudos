@@ -11,12 +11,16 @@
         <p>Por favor preencha os campos abaixo e escolha o curso desejado:</p>
         <form method="post" action="" >
             <fieldset>
-                <label for="first-name">Digite seu Primeiro Nome: <input type="text" id="first-name"></label>
-                <label for="last-name">Digite seu Último Nome: <input type="text" id="last-name"></label>
-                <label for="email">Digite seu email: <input type="email" id="email"></label>
-                <label for="new-password">Criar nova senha: <input type="password" id="new-password"></label>
+                <label for="first-name">Digite seu Primeiro Nome: <input type="text" id="first-name" required></label>
+                <label for="last-name">Digite seu Último Nome: <input type="text" id="last-name" required></label>
+                <label for="email">Digite seu email: <input type="email" id="email" required></label>
+                <label for="new-password">Criar nova senha: <input type="password" id="new-password" pattern="[a-z0-5]{8,}" required></label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label for=""><input type="radio" name="account-type"> Iniciante</label>
+                <label for=""><input type="radio" name="account-type"> Já tenho um conhecimento musical</label>
+                <label for=""><input type="checkbox" required> Eu aceito os termos e condições</label>
+            </fieldset>
             <fieldset></fieldset>
             <input type="submit" value="Enviar">
         </form>
