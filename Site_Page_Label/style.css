@@ -1,20 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
-  font-size: 20px;
+  font-size: 25px;
+  box-sizing: border-box;
 }
 
 body{
   font-family: Poppins, sans-serif;
 }
 
-h1{
+header h1{
   text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 0.40px;
+  margin: 0;
+}
+
+.divider{
+  border-bottom: 2px solid #ecc000;
+  margin: 5px 0;
+}
+
+.large{
+  height: 10px;
+}
+
+.large, .medium{
+  background-color: #ecc000;
+  border: 0;
+}
+
+p{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+
+
+.bold{
+  font-weight: 600;
 }
 
 .label{
   border: 3px solid black;
-  width: 270px;
+  width: 550px;
   margin: 10px auto;
   padding: 0 10px;
+}
+
+.small-text{
+  font-size: 0.85rem;
+}
+
+.calories-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calories-info span{
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.left-container p{
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+  margin: -7px -2px;
+}
+
+.medium{
+  height: 5px;
+}
+
+.right{
+  justify-content: flex-end;
 }
